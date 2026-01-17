@@ -1,0 +1,29 @@
+.recommendations-section {
+  margin-bottom: 30px;
+}
+
+.recommendations-section h3 {
+  color: #333;
+  margin-bottom: 15px;
+  font-size: 1.3rem;
+}
+
+.recommendations-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.recommendations-section li {
+  padding: 12px 20px;
+  margin-bottom: 10px;
+  background: #f8f9fa;
+  border-radius: 8px;
+  border-left: 4px solid #f59e0b;
+  line-height: 1.6;
+  color: #555;
+}
+
+.recommendations-section li:before {
+  content: "💡 ";
+  margin-right: 8px;
+}

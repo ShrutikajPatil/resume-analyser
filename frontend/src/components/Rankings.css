@@ -1,0 +1,20 @@
+.rankings {
+  width: 100%;
+}
+
+.rankings h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.rankings-subtitle {
+  color: #666;
+  margin-bottom: 30px;
+  font-size: 0.95rem;
+}
+
+.rankings-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

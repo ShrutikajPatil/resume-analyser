@@ -1,0 +1,45 @@
+.ranking-details {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.ranking-explanation {
+  color: #555;
+  line-height: 1.6;
+}
+
+.ranking-explanation strong {
+  color: #333;
+}
+
+.ranking-recommendations {
+  color: #555;
+}
+
+.ranking-recommendations strong {
+  color: #333;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.ranking-recommendations ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.ranking-recommendations li {
+  padding: 8px 12px;
+  margin-bottom: 6px;
+  background: white;
+  border-radius: 6px;
+  border-left: 3px solid #f59e0b;
+  line-height: 1.5;
+}
+
+.ranking-recommendations li:before {
+  content: "→ ";
+  color: #f59e0b;
+  font-weight: bold;
+}
